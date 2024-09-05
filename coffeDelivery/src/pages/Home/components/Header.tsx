@@ -3,7 +3,7 @@ import { MapPin, ShoppingCart } from "lucide-react";
 
 export function Header() {
   return (
-    <div className="bg-coffe-100 h-24 flex justify-between items-center">
+    <div className="mx-[160px] h-24 flex justify-between items-center">
       <div className="ml-40">
         <img src={logo} alt="" />
       </div>
@@ -12,7 +12,7 @@ export function Header() {
           <MapPin className="size-5" />
           Porto Alegre
         </div>
-        <div className="flex items-center gap-1 p-2 bg-coffe-400 rounded-md text-coffe-500">
+        <div className="flex items-center gap-1 p-2 rounded-md text-coffe-500">
           <ShoppingCart className="size-6 fill-coffe-500" />
         </div>
       </div>

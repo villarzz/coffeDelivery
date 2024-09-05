@@ -1,11 +1,15 @@
-import { Intro } from './components/intro';
-import { Header } from './components/Header';
+import { Intro } from "./components/intro";
+import { Header } from "./components/Header";
+import { CoffeList } from "./components/CoffeList";
 
 export function Home() {
   return (
-    <>
-      <Header/>
-      <Intro/>
-    </>
+    <div className="antialiased">
+      <div>
+        <Header />
+        <Intro />
+        <CoffeList />
+      </div>
+    </div>
   );
 }
