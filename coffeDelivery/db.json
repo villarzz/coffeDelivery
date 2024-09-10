@@ -1,0 +1,116 @@
+{
+  "coffes": [
+    {
+      "id": "1",
+      "img": "assets/coffes/coffe1.png",
+      "type": ["TRADICIONAL"],
+      "name": "Expresso Tradicional",
+      "description":"O tradicional café expresso feito com água quente e café moído na hora.",
+      "price": "R$ 5,00"
+    },
+    {
+        "id":"2",
+        "img": "assets/coffes/coffe2.png",
+        "type": ["TRADICIONAL"],
+        "name": "Café normal",
+        "description":"O tradicional café feito com água quente e café moído na hora.",
+        "price": "R$ 3,00"
+    },
+    {
+        "id":"3",
+        "img": "assets/coffes/coffe3.png",
+        "type": ["TRADICIONAL", "COM LEITE"],
+        "name": "Café com leite",
+        "description":"O tradicional café feito com água quente e café moído na hora, com leite.",
+        "price": "R$ 4,00"
+    },
+    {
+        "id":"4",
+        "img": "assets/coffes/coffe4.png",
+        "type": ["TRADICIONAL", "GELADO"],
+        "name": "Café gelado",
+        "description":"O tradicional café feito com água quente e café moído na hora, gelado.",
+        "price": "R$ 4,00"
+    },
+    {
+        "id":"5",
+        "img": "assets/coffes/coffe5.png",
+        "type": ["TRADICIONAL", "COM LEITE", "GELADO"],
+        "name": "Café com leite gelado",
+        "description":"O tradicional café feito com água quente e café moído na hora, com leite, gelado.",
+        "price": "R$ 5,00"
+    },
+    {
+        "id":"6",
+        "img": "assets/coffes/coffe6.png",
+        "type": ["TRADICIONAL", "COM LEITE"],
+        "name": "Café Cremoso",
+        "description":"Um café expresso encorpado com leite vaporizado, criando uma textura suave e aveludada.",
+        "price": "R$ 6,00"
+    },
+    {
+        "id":"7",
+        "img": "assets/coffes/coffe7.png",
+        "type": ["TRADICIONAL", "COM LEITE"],
+        "name": "Macchiato",
+        "description":"Expresso intenso com um toque de leite vaporizado, perfeito para quem busca equilíbrio.",
+        "price": "R$ 7,00"
+    },
+    {
+        "id":"8",
+        "img": "assets/coffes/coffe8.png",
+        "type": ["TRADICIONAL", "COM LEITE"],
+        "name": "Latte do Dia",
+        "description":"Café espresso e leite vaporizado com sabores exclusivos que mudam a cada dia.",
+        "price": "R$ 5,00"
+    },
+    {
+        "id":"9",
+        "img": "assets/coffes/coffe9.png",
+        "type": ["TRADICIONAL", "COM LEITE"],
+        "name": "Latte Artesanal",
+        "description":"Café espresso e leite vaporizado, preparados com técnica refinada para um sabor rico e equilibrado.",
+        "price": "R$ 6,00"
+    },
+    {
+        "id":"10",
+        "img": "assets/coffes/coffe10.png",
+        "type": ["TRADICIONAL", "COM LEITE"],
+        "name": "Café Aromático com leite",
+        "description":"Café de alta qualidade com leite vaporizado, oferecendo um sabor rico e uma fragrância suave.",
+        "price": "R$ 7,00"
+    },
+    {
+        "id":"11",
+        "img": "assets/coffes/coffe11.png",
+        "type": ["ALCOÓLICO", "GELADO"],
+        "name": "Espresso Martini",
+        "description":"Café espresso misturado com vodka e licor de café, servido gelado para um toque sofisticado e energizante.",
+        "price": "R$ 10,00"
+    },
+    {
+        "id":"12",
+        "img": "assets/coffes/coffe12.png",
+        "type": ["TRADICIONAL"],
+        "name": "Espresso Martini",
+        "description":"Café espresso misturado com vodka e licor de café, servido gelado para um toque sofisticado e energizante.",
+        "price": "R$ 10,00"
+    },
+    {
+        "id":"13",
+        "img": "assets/coffes/coffe13.png",
+        "type": ["ALCOÓLICO"],
+        "name": "Café Irlandês",
+        "description":"Café quente com uísque irlandês e creme fresco, oferecendo um sabor robusto e suave.",
+        "price": "R$ 12,00"
+    },
+    {
+        "id":"14",
+        "img": "assets/coffes/coffe14.png",
+        "type": ["TRADICIONAL","ALCOÓLICO"],
+        "name": "Café com Licor de Café",
+        "description":"Café quente enriquecido com licor de café, oferecendo uma combinação perfeita de sabores intensos e adocicados para uma experiência única e sofisticada.",
+        "price": "R$ 8,00"
+    }
+  ]
+}

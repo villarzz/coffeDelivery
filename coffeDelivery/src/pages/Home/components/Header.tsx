@@ -12,7 +12,7 @@ export function Header() {
           <MapPin className="size-5" />
           Porto Alegre
         </div>
-        <div className="flex items-center gap-1 p-2 rounded-md text-coffe-500">
+        <div className="flex items-center gap-1 p-2 rounded-md bg-coffe-400 text-coffe-500">
           <ShoppingCart className="size-6 fill-coffe-500" />
         </div>
       </div>
