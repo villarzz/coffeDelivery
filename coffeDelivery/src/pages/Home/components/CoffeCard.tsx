@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { Coffe } from "../../../interfaces/coffe";
 import { Minus, Plus, ShoppingCart } from "lucide-react";
-import { ShoppingCartContext } from "../../../contexts/shoppingCartContext";
+import { ShoppingCartContext } from "../../../contexts/ShoppingCartContext";
 
 export function CoffeCard({ name, description, price, img, type }: Coffe) {
   const [counter, setCounter] = useState<number>(1);
