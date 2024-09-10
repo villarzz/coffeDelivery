@@ -5,7 +5,7 @@ import { ShoppingCartContext } from "../../../contexts/shoppingCartContext";
 
 export function CoffeCard({ name, description, price, img, type }: Coffe) {
   const [counter, setCounter] = useState<number>(1);
-  const { shoppingCartCounter, setShoppingCartCounter } = useContext(ShoppingCartContext);
+  const { setShoppingCartCounter,setCoffes } = useContext(ShoppingCartContext);
 
   const increaseCounter = () => {
     setCounter(prevCounter => prevCounter + 1);
@@ -16,8 +16,21 @@ export function CoffeCard({ name, description, price, img, type }: Coffe) {
     setCounter(prevCounter => (prevCounter > 1 ? prevCounter - 1 : 1));
   };
 
+  const addCoffeToCart = () => {
+    const coffe = {
+      name,
+      description,
+      price,
+      img,
+      type,
+      quantity: counter,
+    };
+    setCoffes((prevCoffes:Coffe[]) => [...prevCoffes, coffe]);
+  }
+
   const addToCart = () => {
     setShoppingCartCounter((prevCounter: number) => prevCounter + counter);
+    addCoffeToCart();
   };
 
   return (
@@ -31,7 +44,7 @@ export function CoffeCard({ name, description, price, img, type }: Coffe) {
       />
       <div className="flex items-center gap-2">
         {type.map(type => (
-          <p className="bg-coffe-400 px-2 py-1 rounded-3xl text-xs font-bold text-coffe-600 mt-3 mb-2">
+          <p key={type} className="bg-coffe-400 px-2 py-1 rounded-3xl text-xs font-bold text-coffe-600 mt-3 mb-2">
             {type}
           </p>
         ))}
