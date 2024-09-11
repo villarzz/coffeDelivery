@@ -7,7 +7,7 @@ export function Checkout() {
     <div className="antialiased">
       <div>
         <Header />
-        <div className="flex">
+        <div className="flex gap-8">
           <DeliveryInfos></DeliveryInfos>
           <ItensToCheckout></ItensToCheckout>
         </div>

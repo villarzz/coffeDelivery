@@ -2,7 +2,7 @@ import { MapPinned } from "lucide-react";
 
 export function DeliveryInfos() {
   return (
-    <div className="flex flex-col mx-[340px] mt-[78px]">
+    <div className="flex flex-col ml-[340px] mt-[78px]">
       <h2 className="text-2xl font-semibold">Complete seu pedido</h2>
       <div className="w-[640px] bg-coffe-800 p-9">
         <div className="flex items-center gap-2">
