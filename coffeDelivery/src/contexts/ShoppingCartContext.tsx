@@ -16,7 +16,12 @@ export function ShoppingCartProvider({ children }: { children: ReactNode }) {
 
   return (
     <ShoppingCartContext.Provider
-      value={{ shoppingCartCounter, setShoppingCartCounter, coffes,setCoffes }}>
+      value={{
+        shoppingCartCounter,
+        setShoppingCartCounter,
+        coffes,
+        setCoffes,
+      }}>
       {children}
     </ShoppingCartContext.Provider>
   );

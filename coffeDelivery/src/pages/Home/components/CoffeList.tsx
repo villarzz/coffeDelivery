@@ -26,6 +26,7 @@ export function CoffeList() {
             price={coffe.price}
             img={coffe.img}
             type={coffe.type}
+            quantity={coffe.quantity}
           ></CoffeCard>
         ))}
       </div>

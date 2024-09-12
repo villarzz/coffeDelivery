@@ -6,7 +6,7 @@
       "type": ["TRADICIONAL"],
       "name": "Expresso Tradicional",
       "description": "O tradicional café expresso feito com água quente e café moído na hora.",
-      "price": "5,00"
+      "price": "5.00"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "type": ["TRADICIONAL"],
       "name": "Café normal",
       "description": "O tradicional café feito com água quente e café moído na hora.",
-      "price": "3,00"
+      "price": "3.00"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "type": ["TRADICIONAL", " LEITE"],
       "name": "Café com leite",
       "description": "O tradicional café feito com água quente, café e com leite.",
-      "price": "4,00"
+      "price": "4.00"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "type": ["TRADICIONAL", "GELADO"],
       "name": "Café gelado",
       "description": "O tradicional café feito com água quente e café moído na hora, gelado.",
-      "price": "4,00"
+      "price": "4.00"
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "type": ["TRADICIONAL", " LEITE", "GELADO"],
       "name": "Café com leite gelado",
       "description": "Feito com água quente e café com leite gelado.",
-      "price": "5,00"
+      "price": "5.00"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "type": ["TRADICIONAL", " LEITE"],
       "name": "Café Cremoso",
       "description": "Um café expresso encorpado com leite vaporizado.",
-      "price": "6,00"
+      "price": "6.00"
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "type": ["TRADICIONAL", " LEITE"],
       "name": "Macchiato",
       "description": "Expresso intenso com um toque de leite vaporizado.",
-      "price": "7,00"
+      "price": "7.00"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "type": ["TRADICIONAL", " LEITE"],
       "name": "Latte do Dia",
       "description": "Café espresso e leite vaporizado com sabores exclusivos.",
-      "price": "5,00"
+      "price": "5.00"
     },
     {
       "id": "9",
@@ -70,7 +70,7 @@
       "type": ["TRADICIONAL", " LEITE"],
       "name": "Latte Artesanal",
       "description": "Café espresso e leite vaporizado, preparados com técnica refinada.",
-      "price": "6,00"
+      "price": "6.00"
     },
     {
       "id": "10",
@@ -78,7 +78,7 @@
       "type": ["TRADICIONAL", " LEITE"],
       "name": "Café Aromático com leite",
       "description": "Café e leite vaporizado, oferecendo, sabor rico e uma fragrância suave.",
-      "price": "7,00"
+      "price": "7.00"
     },
     {
       "id": "11",
@@ -86,7 +86,7 @@
       "type": ["TRADICIONAL"],
       "name": "Latte de Chocolate",
       "description": "Café espresso com leite vaporizado e um toque de chocolate.",
-      "price": "10,00"
+      "price": "10.00"
     },
     {
       "id": "12",
@@ -94,7 +94,7 @@
       "type": ["TRADICIONAL"],
       "name": "Espresso Martini",
       "description": "Café misturado com vodka, licor de café, servido gelado.",
-      "price": "10,00"
+      "price": "10.00"
     },
     {
       "id": "13",
@@ -102,7 +102,7 @@
       "type": ["ALCOÓLICO"],
       "name": "Café Irlandês",
       "description": "Café quente com uísque irlandês e creme fresco.",
-      "price": "12,00"
+      "price": "12.00"
     },
     {
       "id": "14",
@@ -110,7 +110,7 @@
       "type": ["TRADICIONAL", "ALCOÓLICO"],
       "name": "Café com Licor de Café",
       "description": "Café quente com licor de café e leite.",
-      "price": "8,00"
+      "price": "8.00"
     }
   ]
 }

@@ -1,6 +1,6 @@
-import { BrowserRouter } from "react-router-dom";
 import { Router } from "./Router";
-import { ShoppingCartProvider } from "./contexts/shoppingCartContext";
+import { BrowserRouter } from "react-router-dom";
+import { ShoppingCartProvider } from "./contexts/ShoppingCartContext";
 
 function App() {
   return (

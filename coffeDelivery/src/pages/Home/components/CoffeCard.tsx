@@ -12,7 +12,6 @@ export function CoffeCard({ name, description, price, img, type }: Coffe) {
   };
 
   const decreaseCounter = () => {
-    //verificação para não permitir valores negativos
     setCounter(prevCounter => (prevCounter > 1 ? prevCounter - 1 : 1));
   };
 
