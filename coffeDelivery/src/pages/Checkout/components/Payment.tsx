@@ -6,6 +6,7 @@ export function Payment() {
 
   const handleButtonClick = (button: any) => {
     setSelectedButton(button);
+    localStorage.setItem("payment", button);
   };
 
   return (
