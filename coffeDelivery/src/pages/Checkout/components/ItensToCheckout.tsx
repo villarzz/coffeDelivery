@@ -2,6 +2,7 @@ import { Minus, Plus, Trash } from "lucide-react";
 import { useContext, useEffect, useState } from "react";
 import { ShoppingCartContext } from "../../../contexts/ShoppingCartContext";
 import { Coffe } from "../../../interfaces/coffe";
+import { NavLink } from "react-router-dom";
 
 export function ItensToCheckout() {
   const [deliveryPrice] = useState<number>(5);
@@ -106,9 +107,11 @@ export function ItensToCheckout() {
             <p className="font-bold text-2xl text-coffe-902">R$ {totalPrice}</p>
           </div>
         </div>
-        <button className="bg-coffe-600 text-white w-full h-14 rounded-md mt-6">
-          FINALIZAR COMPRA
-        </button>
+        <NavLink to="/delivery" title="Delivery">
+          <button className="bg-coffe-600 text-white w-full h-14 rounded-md mt-6">
+            FINALIZAR COMPRA
+          </button>
+        </NavLink>
       </div>
     </div>
   );
