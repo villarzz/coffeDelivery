@@ -22,60 +22,60 @@ export function Payment() {
       </div>
       <div className="flex items-start mt-6">
         <button
-          onClick={() => handleButtonClick("credit")}
+          onClick={() => handleButtonClick("Crédito")}
           className={`p-7 h-[38px] flex justify-start items-center gap-1 rounded-md ml-5 ${
-            selectedButton === "credit"
+            selectedButton === "Crédito"
               ? "bg-purple-100 border border-purple-600"
               : "bg-gray-200"
           }`}>
           <CreditCard
             className={`size-5 ${
-              selectedButton === "credit" ? "text-purple-600" : "text-coffe-300"
+              selectedButton === "Crédito" ? "text-purple-600" : "text-coffe-300"
             }`}
           />
           <p
             className={`whitespace-nowrap text-sm ${
-              selectedButton === "credit" ? "text-purple-600" : "text-coffe-700"
+              selectedButton === "Crédito" ? "text-purple-600" : "text-coffe-700"
             }`}>
             CARTÃO DE CRÉDITO
           </p>
         </button>
 
         <button
-          onClick={() => handleButtonClick("debit")}
+          onClick={() => handleButtonClick("Débito")}
           className={`p-7 h-[38px] flex justify-center items-center gap-1 rounded-md ml-5 ${
-            selectedButton === "debit"
+            selectedButton === "Débito"
               ? "bg-purple-100 border border-purple-600"
               : "bg-gray-200"
           }`}>
           <CreditCard
             className={`size-5 ${
-              selectedButton === "debit" ? "text-purple-600" : "text-coffe-300"
+              selectedButton === "Débito" ? "text-purple-600" : "text-coffe-300"
             }`}
           />
           <p
             className={`whitespace-nowrap text-sm ${
-              selectedButton === "debit" ? "text-purple-600" : "text-coffe-700"
+              selectedButton === "Débito" ? "text-purple-600" : "text-coffe-700"
             }`}>
             CARTÃO DE DÉBITO
           </p>
         </button>
 
         <button
-          onClick={() => handleButtonClick("cash")}
+          onClick={() => handleButtonClick("Dinheiro")}
           className={`p-7 h-[38px] flex justify-center items-center gap-1 rounded-md ml-5 ${
-            selectedButton === "cash"
+            selectedButton === "Dinheiro"
               ? "bg-purple-100 border border-purple-600"
               : "bg-gray-200"
           }`}>
           <CircleDollarSign
             className={`size-5 ${
-              selectedButton === "cash" ? "text-purple-600" : "text-coffe-300"
+              selectedButton === "Dinheiro" ? "text-purple-600" : "text-coffe-300"
             }`}
           />
           <p
             className={`whitespace-nowrap text-sm ${
-              selectedButton === "cash" ? "text-purple-600" : "text-coffe-700"
+              selectedButton === "Dinheiro" ? "text-purple-600" : "text-coffe-700"
             }`}>
             DINHEIRO
           </p>
